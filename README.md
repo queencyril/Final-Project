@@ -122,7 +122,7 @@ Border Pink: #e3b4c7
 Background Soft: #fff9fb
 
 # Presentation Slide
-
+[Click here to view the presentation](<Presentation slide/Presentation-slide.pdf>)
 
 # Conclusion
 
