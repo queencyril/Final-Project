@@ -98,7 +98,7 @@ git branch -M main
 git remote add origin https://github.com/queencyril/final-project.git
 git push -u origin main
 
-**What I Learned From This Project:**
+**What I Learned From This Project:*
 
 - How to structure a full frontend project from scratch
 
@@ -112,7 +112,7 @@ git push -u origin main
 
 - How to document a project professionally
 
-**Colour Palette:**
+**Colour Palette:*
 Primary Pink: #f8c8d8
 Soft Rose: #ffeef2
 Warm Blush: #ffdce5
@@ -121,7 +121,7 @@ Accent Green: #3bc46b
 Border Pink: #e3b4c7
 Background Soft: #fff9fb
 
-**Conclusion**
+**Conclusion*
 
 This project represents my growth as a frontend developer and demonstrates real world development skills including design thinking, DOM manipulation, problem solving, and responsive layouts.
 
