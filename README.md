@@ -121,6 +121,9 @@ Accent Green: #3bc46b
 Border Pink: #e3b4c7
 Background Soft: #fff9fb
 
+# Presentation Slide
+
+
 # Conclusion
 
 This project represents my growth as a frontend developer and demonstrates real world development skills including design thinking, DOM manipulation, problem solving, and responsive layouts.
