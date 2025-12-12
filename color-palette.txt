@@ -1,0 +1,7 @@
+Primary Pink: #f8c8d8
+Soft Rose: #ffeef2
+Warm Blush: #ffdce5
+Dark Text: #333333
+Accent Green: #3bc46b
+Border Pink: #e3b4c7
+Background Soft: #fff9fb
