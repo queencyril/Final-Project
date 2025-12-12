@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LuQueens Planner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-badge">LQ</div>
+      <div class="brand-text">
+        <div class="brand-title">LuQueens App</div>
+        <div class="brand-sub">Soft planning & calm productivity</div>
+      </div>
+    </div>
+    <div class="greeting">Hello <span class="user-name">Oluchi</span>, <span class="accent">Start Planning Today…</span></div>
+    <div class="profile">
+      <img src="https://i.pravatar.cc/64?img=47" alt="profile" />
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="today-line">
+        <div class="today-title">Today's Date</div>
+        <div id="todayLabel" class="today-value"></div>
+      </div>
+
+      <div class="mini-cal card">
+        <div class="cal-header">
+          <button id="prevMonth" class="cal-nav" aria-label="previous month">‹</button>
+          <div id="monthYear" class="cal-month"></div>
+          <button id="nextMonth" class="cal-nav" aria-label="next month">›</button>
+        </div>
+        <div id="calendar" class="calendar-grid"></div>
+      </div>
+
+      <div class="stats card">
+        <div class="stat-row">
+          <div class="stat-label">Completed</div>
+          <div id="completedCount" class="stat-value">0</div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label">Pending</div>
+          <div id="pendingCount" class="stat-value">0</div>
+        </div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="input-card card">
+        <div class="input-grid">
+          <input id="titleInput" class="input title" type="text" placeholder="Type Title Of Task" />
+          <input id="dateInput" class="input date" type="date" />
+          <textarea id="descInput" class="input desc" rows="2" placeholder="Details Of Your Task"></textarea>
+          <button id="addTaskBtn" class="add-btn" title="Add task">＋</button>
+        </div>
+      </div>
+
+      <div id="tasksContainer" class="tasks-grid">
+      </div>
+    </section>
+  </main>
+
+  <div id="editModal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <h3>Edit Task</h3>
+      <input id="editTitle" type="text" placeholder="Title" />
+      <input id="editDate" type="date" />
+      <textarea id="editDesc" rows="3" placeholder="Details"></textarea>
+      <div class="modal-actions">
+        <button id="saveEdit" class="btn primary">Save</button>
+        <button id="cancelEdit" class="btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
